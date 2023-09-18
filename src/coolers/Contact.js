@@ -38,11 +38,11 @@ export default function Contact() {
                     </div>
                     <div className=" col-md-6">
                         <label >Compnay Name</label>
-                        <input type="text" className="form-control" name="inputTextarea" id="inputEmail"  style={{width:"100%" ,height:"50%"}}/>
+                        <input type="text" className="form-control" name="inputTextarea" id="inputEmail2"  style={{width:"100%" ,height:"50%"}}/>
                     </div>
                     <div className=" col-md-6">
                         <label >Email *</label>
-                        <input type="text" className="form-control" name="inputTextarea" id="inputEmail"  required style={{width:"100%" ,height:"50%"}} onChange={onCH} value={txt}/>
+                        <input type="text" className="form-control" name="inputTextarea" id="inputEmail3"  required style={{width:"100%" ,height:"50%"}} onChange={onCH} value={txt}/>
                     </div>
                     <div className="col-md-6">
                     <label >Your message</label>
